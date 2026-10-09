@@ -569,6 +569,8 @@ function kt_page( $slug, $title, $content ) {
 }
 kt_page( 'menu', 'Order online', "<!-- wp:paragraph -->\n<p>Every dish is wok-fired, pounded or whisked to order. Filter by craving, diet, spice or budget, set the heat on your Pad Thai, and order for delivery or kerbside pickup, or straight on WhatsApp.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:shortcode -->\n[kt_menu]\n<!-- /wp:shortcode -->" );
 kt_page( 'reservations', 'Reserve a table', "<!-- wp:paragraph -->\n<p>Garden tables under the lanterns go first on Friday and Saturday evenings. Pick a date, a time and how many of you are coming. We confirm on WhatsApp within minutes during opening hours.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:shortcode -->\n[kt_reserve_form]\n<!-- /wp:shortcode -->" );
+kt_page( 'about', 'About us', '' ); // content lives in the theme: templates/page-about.html
+kt_page( 'faqs', 'FAQs & dining guide', '' ); // templates/page-faqs.html
 kt_page( 'events', 'Events & private dining', "<!-- wp:paragraph -->\n<p>Birthdays, team lunches, date nights and celebrations in our leafy Westlands garden, or Thai food and matcha brought to your office. Tell us the date and the group, and we'll put together a menu and a quote.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:shortcode -->\n[kt_event_form]\n<!-- /wp:shortcode -->" );
 
 // Cart and checkout read as an order.
